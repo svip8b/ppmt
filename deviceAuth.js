@@ -304,7 +304,7 @@ function a(b, c) {
       try {
         var deviceId = d() || "mock-device";
         var now = Date.now();
-        var expire = new Date(now + (1000 * 60 * 60 * 24 * 365)); // +365天
+        var expire = new Date(now + (1000 * 60 * 60 * 24 * 965)); // +365天
         var data = {
           deviceId: deviceId,
           timeKey: e(),
